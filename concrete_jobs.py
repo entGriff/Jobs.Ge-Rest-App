@@ -35,6 +35,6 @@ class CONCRETE_JOBS:
 
 
     @staticmethod
-    def get__job_info(id):
+    def get_job_info(id):
         concrete_job = CONCRETE_JOBS(id)
         return concrete_job.get_concrete()
